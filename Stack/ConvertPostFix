@@ -1,0 +1,30 @@
+package UserStack;
+
+class ConvertPostFix {
+
+
+	String infix;
+	private char[] item;
+	private char[] postfix;
+	public ConvertPostFix(int Length ){
+
+		item = new char[Length];
+		postfix = new char[Length];
+	}
+
+	public void convert(char x) {
+
+		Stack s;
+		int i = 0;
+		int j = 0;
+
+		//while(item[i] !='\000'){
+		//}
+	}
+}
+
+
+
+
+
+
